@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Junior Rodriguez</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junior Rodriguez | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Junior Rodriguez</h1>
-      <ul>
+    <nav class="navbar">
+      <h1 class="logo">Junior Rodriguez</h1>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -20,42 +20,45 @@
   </header>
 
   <main>
-    <section>
-      <h2>My Projects</h2>
+    <section class="page-section">
+      <h2>My Portfolio</h2>
 
-      <article class="project">
-        <img src="images/project1.jpg" alt="Screenshot of Puppy Bowl project">
-        <h3>Puppy Bowl</h3>
-        <p>
-          A JavaScript project where I practiced working with data, page structure,
-          and user interaction.
-        </p>
-        <a href="#">View Project</a>
-      </article>
+      <div class="portfolio-grid">
+        <article class="card">
+          <img src="images/project1.jpg" alt="Personal Website project" />
+          <h3>Personal Website</h3>
+          <p>
+            A responsive multi-page personal website built with HTML and CSS. It includes a Home page,
+            About page, Portfolio page, and Contact page.
+          </p>
+          <a href="https://github.com/jboyas19/career" target="_blank">View Project</a>
+        </article>
 
-      <article class="project">
-        <img src="images/project2.jpg" alt="Screenshot of Book Buddy project">
-        <h3>Book Buddy</h3>
-        <p>
-          A web project focused on APIs, layout design, and building front-end skills.
-        </p>
-        <a href="#">View Project</a>
-      </article>
+        <article class="card">
+          <img src="images/work1.jpg" alt="Puppy Bowl project" />
+          <h3>Puppy Bowl</h3>
+          <p>
+            A coding project where I practiced building a web application using JavaScript and working with APIs
+            as part of my software engineering coursework.
+          </p>
+          <a href="https://github.com/jboyas19/Puppy-Bowl" target="_blank">View Project</a>
+        </article>
 
-      <article class="project">
-        <img src="images/business-front.jpg" alt="JE Electrical business card project image">
-        <h3>JE Electrical Construction Inc.</h3>
-        <p>
-          My business reflects my real-world experience in electrical work, leadership,
-          customer service, and project execution.
-        </p>
-        <a href="contact.html">Contact Me</a>
-      </article>
+        <article class="card">
+          <img src="images/work2.jpg" alt="Electrical project planning" />
+          <h3>Electrical Project Planning</h3>
+          <p>
+            A project focused on organizing electrical materials, layouts, and workflow planning for jobsite execution
+            and prefab operations.
+          </p>
+          <a href="contact.html">View Project</a>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Junior Rodriguez</p>
+    <p>&copy; 2026 Junior Rodriguez. All rights reserved.</p>
   </footer>
 </body>
 </html>
